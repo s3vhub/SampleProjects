@@ -1,0 +1,25 @@
+package firstSamplePackage;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Person {
+	
+	public List<String> personName;
+	public void addPerson(){
+		personName = new ArrayList<String>();
+		personName.add("Sankar");
+		personName.add("Sandeep");
+		personName.add("Saravan");
+		personName.add("Sankar");
+		personName.add("Saravan");
+		personName.add("Aniyan");
+		personName.add("Sankar");
+		
+		
+	}
+	public List<String> getPersonName() {
+		return personName;
+	}
+
+}

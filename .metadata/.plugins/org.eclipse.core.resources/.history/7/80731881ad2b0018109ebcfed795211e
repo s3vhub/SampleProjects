@@ -1,0 +1,16 @@
+package firstSamplePackage;
+
+import java.util.HashMap;
+
+import com.sun.javafx.collections.MappingChange.Map;
+
+public class FirstSample {
+
+	public static void main(String[] args){
+		Person person = new Person();
+		person.addPerson();
+		for(String name:person.getPersonName()){
+			Map<String, Integer> nameMap = (Map<String, Integer>) new HashMap();
+		}
+	}
+}
